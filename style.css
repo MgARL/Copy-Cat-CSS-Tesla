@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa:wght@500&display=swap');
+*{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Comfortaa', cursive;;
+}
+body{
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70);
+    background-color: rgb(79, 156, 243);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+nav a{
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+
+.mid-section ul, .left-section ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+nav ul li{
+    padding: .2em;
+}
+
+nav ul li:hover{
+    background-color: rgba(211, 211, 211, 0.5);
+    border-radius: 10px;
+}
+
+.mid-section{
+    min-width: 50%;
+    flex-grow: 3;
+
+}
+.left-section{
+    min-width: 20%;
+    flex-grow: 1;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 15%;
+    flex-grow: 1;
+}
+
+main{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75vh;
+    text-align: center;
+}
+main p {
+    color: #5C5D61;
+}
+main p a{
+    text-decoration: underline;
+    color: #5C5D61;
+}
+
+.buttons{
+    display: flex;
+    gap: 1.4em;
+    opacity: 0.8;
+}
+
+.buttons a {
+    font-size: 12px;
+    padding: .7em 4em;
+    border-radius: 20px;
+}
+.custom-order-btn{
+    color: whitesmoke;
+    background-color: #13161C;
+}
+
+.existing-inventory-btn {
+    background-color: #F4F2F1;
+}
